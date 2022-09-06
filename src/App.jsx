@@ -16,7 +16,7 @@ function App() {
    * https://blog.webdevsimplified.com/2020-04/use-state/
    * 
   */
-  const [ count,setCount] = useState(4)
+  const [ count , setCount ] = useState(4)
   const decrementCount = () => {
     // TODO: Decrement count by 1. 
   setCount (preCount => preCount-1);
